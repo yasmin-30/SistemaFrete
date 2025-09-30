@@ -1,9 +1,10 @@
 package sistemaFrete;
 
 public abstract class Entregador {
-	String nome;
+	private String nome;
 	
 	public Entregador(String nome) {
 		this.nome = nome;
 	}
 }
+
